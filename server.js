@@ -5,7 +5,6 @@ const app = jsonServer.create()
 const router = jsonServer.router('db.json')
 
 // /!\ Bind the router db to the app
-// @ts-ignore
 app.db = router.db
 
 // You must apply the auth middleware before the router

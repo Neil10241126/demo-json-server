@@ -1,10 +1,14 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" },
-  "users": []
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$m3feeKrykE/1C0Gddp8oB.6XdPNkYjLTJOdIjn05IH/u1dZm9.Ope",
+      "id": 1
+    },
+    {
+      "email": "olivier2@mail.com",
+      "password": "$2a$10$rY/AeGEQVrCrGCCfLCOq1.rQofEh5K7/sEcs3njMz5YW2cY7/YwCS",
+      "id": 2
+    }
+  ]
 }
